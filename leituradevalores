@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class leituradevalores {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int [] numeros = new int[3];
+
+        System.out.println("Insira o valor do numero: ");
+        numeros[0] = sc.nextInt();
+        System.out.println("Insira o valor do numero: ");
+        numeros[1] = sc.nextInt();
+        System.out.println("Insira o valor do numero: ");
+        numeros[2] = sc.nextInt();
+
+        int temp1 = numeros[0];
+        int temp2 = numeros[1];
+        int temp3 = numeros[2];
+        int media = temp1 + temp2 + temp3 /3;
+
+        System.out.println("Os vetores são:" + temp1 + "," + temp2 + "," + temp3);
+        System.out.println(media);
+
+
+        //ystem.out.println("Digite um valor: ")
+    }
+}
